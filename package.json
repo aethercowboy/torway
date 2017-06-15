@@ -5,6 +5,7 @@
   "main": "webpack.config.js",
   "scripts": {
     "start": "webpack-dev-server --hot"
+    "build": "npm run webpack"
   },
   "author": "Jacob P. Silvia",
   "license": "MIT",

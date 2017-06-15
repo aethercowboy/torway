@@ -2,7 +2,7 @@ var config = {
    entry: './main.js',
 
    output: {
-      path: __dirname + './',
+      path: __dirname + '/dist',
       filename: 'index.js',
    },
 
@@ -21,7 +21,11 @@ var config = {
             query: {
                presets: ['es2015', 'react']
             }
-         }
+         },
+         {
+           test: /\.(jpe?g|gif|png|svg|woff|ttf|wav|mp3|html)$/,
+              loader: "file?name=[path][name].[ext]&context=./app/static"
+          }
       ],
    },
 
