@@ -1,0 +1,17 @@
+{
+  "name": "torway",
+  "version": "1.0.0",
+  "description": "Every Heart a Doorway Mapper",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot"
+  },
+  "author": "Jacob P. Silvia",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^15.6.0",
+    "react-dom": "^15.6.0",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
+  }
+}
