@@ -9866,7 +9866,7 @@ var App = function (_React$Component) {
     value: function calculateMorality(y) {
       switch (y) {
         case -3:
-          return 118;
+          return 224.5;
         case -2:
           return 442;
         case -1:
