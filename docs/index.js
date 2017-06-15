@@ -9978,20 +9978,26 @@ var App = function (_React$Component) {
             'Inspired by ',
             _react2.default.createElement(
               'a',
-              { href: 'http://www.tor.com/2017/06/12/mapping-fantasies-into-a-single-multiverse-through-seanan-mcguires-wayward-children-series/' },
+              { href: 'http://www.tor.com/2017/06/12/mapping-fantasies-into-a-single-multiverse-through-seanan-mcguires-wayward-children-series/', target: '_blank' },
               'this post'
             ),
             ' at Tor.com. Image courtesy of ',
             _react2.default.createElement(
               'a',
-              { href: 'http://www.tor.com/' },
+              { href: 'http://www.tor.com/', target: '_blank' },
               'Tor.com'
             ),
             ', software provided by Jacob P. Silvia of ',
             _react2.default.createElement(
               'a',
-              { href: 'https://whatcharacter.com' },
+              { href: 'https://whatcharacter.com', target: '_blank' },
               'WhatCharacter.com'
+            ),
+            '. Fork this on ',
+            _react2.default.createElement(
+              'a',
+              { href: 'https://github.com/aethercowboy/torway', target: '_blank' },
+              'GitHub'
             ),
             '.'
           )

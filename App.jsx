@@ -172,7 +172,7 @@ class App extends React.Component {
               works={this.state.works}
               removeWork={this.removeWork.bind(this)}
             />
-          <p>Inspired by <a href="http://www.tor.com/2017/06/12/mapping-fantasies-into-a-single-multiverse-through-seanan-mcguires-wayward-children-series/">this post</a> at Tor.com. Image courtesy of <a href="http://www.tor.com/">Tor.com</a>, software provided by Jacob P. Silvia of <a href="https://whatcharacter.com">WhatCharacter.com</a>.</p>
+          <p>Inspired by <a href="http://www.tor.com/2017/06/12/mapping-fantasies-into-a-single-multiverse-through-seanan-mcguires-wayward-children-series/" target="_blank">this post</a> at Tor.com. Image courtesy of <a href="http://www.tor.com/" target="_blank">Tor.com</a>, software provided by Jacob P. Silvia of <a href="https://whatcharacter.com" target="_blank">WhatCharacter.com</a>. Fork this on <a href="https://github.com/aethercowboy/torway" target="_blank">GitHub</a>.</p>
           </div>
         </div>
       );
