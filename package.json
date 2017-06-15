@@ -4,8 +4,8 @@
   "description": "Every Heart a Doorway Mapper",
   "main": "webpack.config.js",
   "scripts": {
-    "start": "webpack-dev-server --hot"
-    "build": "npm run webpack"
+    "start": "webpack-dev-server --hot",
+    "build": "webpack"
   },
   "author": "Jacob P. Silvia",
   "license": "MIT",

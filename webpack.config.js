@@ -24,8 +24,8 @@ var config = {
          },
          {
            test: /\.(jpe?g|gif|png|svg|woff|ttf|wav|mp3|html)$/,
-              loader: "file?name=[path][name].[ext]&context=./app/static"
-          }
+           loader: "file?name=[path][name].[ext]&context=./"
+        }
       ],
    },
 
