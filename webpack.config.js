@@ -2,7 +2,7 @@ var config = {
    entry: './main.js',
 
    output: {
-      path: __dirname + '/dist',
+      path: __dirname + '/docs',
       filename: 'index.js',
    },
 
