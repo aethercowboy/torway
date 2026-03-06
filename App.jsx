@@ -54,19 +54,19 @@ class App extends React.Component {
   calculateMorality(y) {
     switch (y) {
       case -3:
-        return 224.5;
+        return 1450;
       case -2:
-        return 442;
+        return 1239;
       case -1:
-        return 641;
+        return 1039;
       case 0:
         return 840;
       case 1:
-        return 1039;
+        return 641;
       case 2:
-        return 1239;
+        return 442;
       case 3:
-        return 1450;
+        return 224.5;
       default:
         return 840;
     }
@@ -237,7 +237,7 @@ class AddWork extends React.Component {
           </div>
 
           <div className="columns small-12 medium-6">
-            <label className="label">Virtue/Wicked</label>
+            <label className="label">Wicked/Virtue</label>
             <input
               type="number"
               name="morality"
