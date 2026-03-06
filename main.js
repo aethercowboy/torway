@@ -1,10 +1,17 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import App from './App.jsx';
 
-require("./index.html");
-require("./img/grid.png");
+import './index.html';
+import './img/grid.png';
 
-ReactDOM.render(<App />, document.getElementById('app'));
+const appElement = document.getElementById('app');
 
-$(document).foundation();
+if (appElement) {
+  const root = createRoot(appElement);
+  root.render(<App />);
+}
+
+if (typeof window !== 'undefined' && typeof window.$ === 'function') {
+  window.$(document).foundation();
+}
